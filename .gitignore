@@ -1,0 +1,59 @@
+# 依赖目录（最重要！可以通过 npm install 重新安装）
+node_modules/
+
+# 构建输出目录（可以通过 npm run build 重新生成）
+dist/
+release/
+out/
+
+# 编译产物
+*.tsbuildinfo
+
+# 开发工具和 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 临时文件
+tmp/
+temp/
+.cache/
+
+# Electron 构建缓存
+electron-builder.yml.backup
+
+# 包管理器锁文件（保留一个即可）
+# 如果使用 npm，保留 package-lock.json
+# 如果使用 yarn，删除 package-lock.json，保留 yarn.lock
+# 如果使用 pnpm，删除 package-lock.json，保留 pnpm-lock.yaml
+
+# TypeScript 缓存
+tsconfig.tsbuildinfo
+
+# 构建资源（如果不需要自定义图标）
+# build/
+
+# 可选：如果不需要提交有效配置
+# release/builder-effective-config.yaml
